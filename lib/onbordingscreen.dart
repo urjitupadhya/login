@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'basescreen.dart';
+import 'package:login_page/screens/home.dart';
+
 void main() {
   runApp(OnboardingApp());
 }
@@ -88,7 +89,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       // Navigate to the HomeScreen when the last slide is reached
   Navigator.push(
   context,
-  MaterialPageRoute(builder: (context) => BaseScreen()),
+  MaterialPageRoute(builder: (context) => HomePage ()),
 );
 
     } else {
